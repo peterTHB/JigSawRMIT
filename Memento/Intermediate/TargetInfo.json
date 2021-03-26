@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Memento",
+			"Path": "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Source/Memento.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MementoEditor",
+			"Path": "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Source/MementoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

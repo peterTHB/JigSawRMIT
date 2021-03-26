@@ -1,0 +1,2016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DF79E2EDFE67416BEF77BF /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6BB943E2C40AE476452D4EE3 /* DefaultEditor.ini */; };
+		1CA02256E208777020EF3683 /* DefaultEditorPerProjectUserSettings.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */; };
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */; };
+		91F6DDE87770C5A225363F8F /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* DefaultGame.ini */; };
+		24EDCC7DA8ED33C0F2D72993 /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultInput.ini */; };
+		1A0C466F5D75E4D8AD6765D5 /* Memento.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* Memento.uproject */; };
+		EC5E64005393B30D4A402975 /* Memento.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* Memento.Target.cs */; };
+		30EC55A9CB3382B8E3FD3D44 /* CharacterPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D7F49395DACE6B1851624 /* CharacterPlayer.cpp */; };
+		BD50F14F554ACC740990509D /* CharacterPlayer.h in Sources */ = {isa = PBXBuildFile; fileRef = 7D66F81A65DF60C0545C7169 /* CharacterPlayer.h */; };
+		90E503389E7484402967B2E6 /* InrteractComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE43C8C055BA3A884EF56DF /* InrteractComponent.cpp */; };
+		A67F7D5E9ACA5BAAD530EC43 /* InrteractComponent.h in Sources */ = {isa = PBXBuildFile; fileRef = EA8A9BE838AB5F6E134858F9 /* InrteractComponent.h */; };
+		D895CEBB2246EA6B8F771A13 /* Memento.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = CA968DAF5525C8B6BC46B00D /* Memento.Build.cs */; };
+		6F6216B8A748AC67AEAEC757 /* Memento.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB84820DD9C9CC10F504D29F /* Memento.cpp */; };
+		BD8848F71CFAC492E5C18A36 /* Memento.h in Sources */ = {isa = PBXBuildFile; fileRef = F0409F5BF4622FCC58497FB8 /* Memento.h */; };
+		9D947E16D9FE58A18F24C83C /* PuzzleInteractionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC98E0BB4B389E1DE5B181 /* PuzzleInteractionComponent.cpp */; };
+		E4558C583DDEBD20825D0AF6 /* PuzzleInteractionComponent.h in Sources */ = {isa = PBXBuildFile; fileRef = 78A7EA2084DA2184717DA6DD /* PuzzleInteractionComponent.h */; };
+		B598FEA846B56A21864682FE /* MementoEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* MementoEditor.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BB943E2C40AE476452D4EE3 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditorPerProjectUserSettings.ini"; path = "../../Config/DefaultEditorPerProjectUserSettings.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 /* Memento.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Memento.uproject"; path = "../../Memento.uproject"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B /* Memento.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Memento.Target.cs"; path = "../../Source/Memento.Target.cs"; sourceTree = SOURCE_ROOT; };
+		2F9D7F49395DACE6B1851624 /* CharacterPlayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CharacterPlayer.cpp"; path = "../../Source/Memento/CharacterPlayer.cpp"; sourceTree = SOURCE_ROOT; };
+		7D66F81A65DF60C0545C7169 /* CharacterPlayer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CharacterPlayer.h"; path = "../../Source/Memento/CharacterPlayer.h"; sourceTree = SOURCE_ROOT; };
+		4DE43C8C055BA3A884EF56DF /* InrteractComponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InrteractComponent.cpp"; path = "../../Source/Memento/InrteractComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		EA8A9BE838AB5F6E134858F9 /* InrteractComponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InrteractComponent.h"; path = "../../Source/Memento/InrteractComponent.h"; sourceTree = SOURCE_ROOT; };
+		CA968DAF5525C8B6BC46B00D /* Memento.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Memento.Build.cs"; path = "../../Source/Memento/Memento.Build.cs"; sourceTree = SOURCE_ROOT; };
+		DB84820DD9C9CC10F504D29F /* Memento.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Memento.cpp"; path = "../../Source/Memento/Memento.cpp"; sourceTree = SOURCE_ROOT; };
+		F0409F5BF4622FCC58497FB8 /* Memento.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Memento.h"; path = "../../Source/Memento/Memento.h"; sourceTree = SOURCE_ROOT; };
+		5DCC98E0BB4B389E1DE5B181 /* PuzzleInteractionComponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PuzzleInteractionComponent.cpp"; path = "../../Source/Memento/PuzzleInteractionComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		78A7EA2084DA2184717DA6DD /* PuzzleInteractionComponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PuzzleInteractionComponent.h"; path = "../../Source/Memento/PuzzleInteractionComponent.h"; sourceTree = SOURCE_ROOT; };
+		10E4841AB4578BB4EF66F8B7 /* MementoEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MementoEditor.Target.cs"; path = "../../Source/MementoEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		8AD55BDB22172FC8DBC0F9A5 /* Memento */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Memento; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA123121F7E590B81DA11329 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EC55A9CB3382B8E3FD3D44 /* CharacterPlayer.cpp in Sources */,
+				90E503389E7484402967B2E6 /* InrteractComponent.cpp in Sources */,
+				6F6216B8A748AC67AEAEC757 /* Memento.cpp in Sources */,
+				9D947E16D9FE58A18F24C83C /* PuzzleInteractionComponent.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	34947D63512E3AA385874349 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		B61F8AF8ECF276F9C4AE4259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE84169B2F4A357C7635315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0770768FDE3F6A508346D445;
+			remoteInfo = "Memento_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		B3440933E797A561DF88880E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0770768FDE3F6A508346D445 /* Memento_Build */;
+			targetProxy = B61F8AF8ECF276F9C4AE4259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		5689C00FDA641125DB5D1D70 = {
+			isa = PBXGroup;
+			children = (
+				F4692571CF2B5827D24062C1 /* Config */,
+				068942B19379FA1AF0EB1380 /* Source */,
+				F519DBC82B7C343B37F88500 /* Memento.uproject */,
+				7FC942314199B319940583A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4692571CF2B5827D24062C1 = {
+			isa = PBXGroup;
+			children = (
+				6BB943E2C40AE476452D4EE3 /* DefaultEditor.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */,
+				9F1A6E3CBDFC1C4D72A426E5 /* DefaultGame.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultInput.ini */,
+			);
+			name = "Config";
+			path = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Config";
+			sourceTree = "<absolute>";
+		};
+		068942B19379FA1AF0EB1380 = {
+			isa = PBXGroup;
+			children = (
+				A0DACE9B81867D268A292DCE /* Memento */,
+				CF746C0FF4BEC24D1E04EB4B /* Memento.Target.cs */,
+				10E4841AB4578BB4EF66F8B7 /* MementoEditor.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Source";
+			sourceTree = "<absolute>";
+		};
+		A0DACE9B81867D268A292DCE = {
+			isa = PBXGroup;
+			children = (
+				2F9D7F49395DACE6B1851624 /* CharacterPlayer.cpp */,
+				7D66F81A65DF60C0545C7169 /* CharacterPlayer.h */,
+				4DE43C8C055BA3A884EF56DF /* InrteractComponent.cpp */,
+				EA8A9BE838AB5F6E134858F9 /* InrteractComponent.h */,
+				CA968DAF5525C8B6BC46B00D /* Memento.Build.cs */,
+				DB84820DD9C9CC10F504D29F /* Memento.cpp */,
+				F0409F5BF4622FCC58497FB8 /* Memento.h */,
+				5DCC98E0BB4B389E1DE5B181 /* PuzzleInteractionComponent.cpp */,
+				78A7EA2084DA2184717DA6DD /* PuzzleInteractionComponent.h */,
+			);
+			name = "Memento";
+			path = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Source/Memento";
+			sourceTree = "<absolute>";
+		};
+		7FC942314199B319940583A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AD55BDB22172FC8DBC0F9A5 /* Memento */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0770768FDE3F6A508346D445 /* Memento_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Memento.uproject\"";
+			buildConfigurationList = ED416D4787710D0401AFA812 /* Build configuration list for PBXLegacyTarget "Memento_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/simonabilkova/UE_4.26/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/simonabilkova/UE_4.26";
+			dependencies = (
+			);
+			name = "Memento_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Memento_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C64793ACE910A45D2683A149 /* Memento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80C548B647839593AFE6BD2 /* Build configuration list for PBXNativeTarget "Memento" */;
+			buildPhases = (
+				34947D63512E3AA385874349 /* Embed App Extensions */, 
+				9CEDC7B73DB10B51051D14C7 /* Shell Script */, 
+			);
+			dependencies = (
+				B3440933E797A561DF88880E /* PBXTargetDependency */,
+			);
+			name = "Memento";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Memento";
+			productReference = "8AD55BDB22172FC8DBC0F9A5";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		3BC93EC758C033F525E4F07B /* Memento_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE71A8444F2D5440016EEE1 /* Build configuration list for PBXNativeTarget "Memento_Index" */;
+			buildPhases = (
+				FA123121F7E590B81DA11329 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "Memento_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Memento_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE84169B2F4A357C7635315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					C64793ACE910A45D2683A149 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 00A2F7C212DF1F0850F1CA9F /* Build configuration list for PBXProject "Memento" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 5689C00FDA641125DB5D1D70;
+			productRefGroup = 7FC942314199B319940583A2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			C64793ACE910A45D2683A149 /* Memento */,
+			0770768FDE3F6A508346D445 /* Memento_Build */,
+			3BC93EC758C033F525E4F07B /* Memento_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		32F02DF6CC6452DDB618FDAD /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/cudamanager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/filebuf",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/foundation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/pvd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/task",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/cooking",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/common",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/extensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/geometry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/clothing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/nvparameterized",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/legacy",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/PhysX3",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/RenderDebug/public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/PairFilter/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/internal/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Core",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TraceLog",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CoreUObject",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ApplicationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RHI",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RHI/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Json",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Json/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SlateCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InputCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Slate",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Slate/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ImageWrapper",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Messaging",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Messaging/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MessagingCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RenderCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnalyticsET",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Sockets",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Sockets/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetRegistry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SynthBenchmark",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Renderer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Renderer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTags",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PacketHandler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioPlatformConfiguration",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StaticMeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PakFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PakFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RSA",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RSA/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PhysicsCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PhysicsCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DeveloperSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Chaos",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Chaos/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ChaosCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/ChaosCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Voronoi",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Voronoi/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SignalProcessing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SignalProcessing/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixerCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixerCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyAccess",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyAccess/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Documentation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Documentation/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Projects",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Projects/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SandboxFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorStyle",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SourceControl",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/SourceControl/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayDebugger",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/BlueprintGraph",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorSubsystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorSubsystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HTTP",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealAudio",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/FunctionalTesting",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AutomationController",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AutomationController/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Localization",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Localization/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TargetPlatform",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/LevelEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Settings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Settings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/IntroTutorials",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CommonMenuExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/CommonMenuExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Landscape",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ActorPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DetailCustomizations",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClassViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GraphEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StructViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/StructViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowser",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowserData",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowserData/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CollectionManager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkFileSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkFileSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UMG",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UMG/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieScene",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieScene/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TimeManagement",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TimeManagement/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieSceneTracks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieSceneTracks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnimationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AnimationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyPath",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyPath/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NavigationSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NavigationSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshBuilder",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshBuilder/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MaterialShaderQualitySettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MaterialShaderQualitySettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InteractiveToolsFramework",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenusEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ToolMenusEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenus",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/ToolMenus/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTagsEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AssetTagsEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AddContentDialog",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel/Embree/Embree2140/MacOSX/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshMergeUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshMergeUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HierarchicalLODUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/HierarchicalLODUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshReductionInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshReductionInterface/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTools",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AssetTools/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/KismetCompiler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/KismetCompiler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTasks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AIModule",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Kismet",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"../Build/Mac/x86_64/UE4Editor/Inc/Memento",
+					"../../Source",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		E9A4852400A1F74A6C23D8F3 /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/cudamanager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/filebuf",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/foundation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/pvd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/task",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/cooking",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/common",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/extensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/geometry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/clothing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/nvparameterized",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/legacy",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/PhysX3",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/RenderDebug/public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/PairFilter/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/internal/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Core",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TraceLog",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CoreUObject",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ApplicationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RHI",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RHI/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Json",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Json/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SlateCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InputCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Slate",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Slate/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ImageWrapper",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Messaging",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Messaging/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MessagingCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RenderCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnalyticsET",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Sockets",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Sockets/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetRegistry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SynthBenchmark",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Renderer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Renderer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTags",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PacketHandler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioPlatformConfiguration",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StaticMeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PakFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PakFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RSA",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RSA/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PhysicsCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PhysicsCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DeveloperSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Chaos",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Chaos/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ChaosCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/ChaosCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Voronoi",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Voronoi/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SignalProcessing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SignalProcessing/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixerCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixerCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyAccess",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyAccess/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Documentation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Documentation/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Projects",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Projects/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SandboxFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorStyle",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SourceControl",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/SourceControl/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayDebugger",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/BlueprintGraph",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorSubsystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorSubsystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HTTP",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealAudio",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/FunctionalTesting",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AutomationController",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AutomationController/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Localization",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Localization/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TargetPlatform",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/LevelEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Settings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Settings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/IntroTutorials",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CommonMenuExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/CommonMenuExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Landscape",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ActorPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DetailCustomizations",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClassViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GraphEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StructViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/StructViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowser",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowserData",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowserData/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CollectionManager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkFileSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkFileSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UMG",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UMG/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieScene",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieScene/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TimeManagement",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TimeManagement/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieSceneTracks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieSceneTracks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnimationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AnimationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyPath",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyPath/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NavigationSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NavigationSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshBuilder",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshBuilder/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MaterialShaderQualitySettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MaterialShaderQualitySettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InteractiveToolsFramework",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenusEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ToolMenusEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenus",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/ToolMenus/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTagsEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AssetTagsEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AddContentDialog",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel/Embree/Embree2140/MacOSX/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshMergeUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshMergeUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HierarchicalLODUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/HierarchicalLODUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshReductionInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshReductionInterface/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTools",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AssetTools/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/KismetCompiler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/KismetCompiler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTasks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AIModule",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Kismet",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"../Build/Mac/x86_64/UE4Editor/Inc/Memento",
+					"../../Source",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame Editor";
+		};
+		1D9F9009EC36CE823FFE1A03 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/cudamanager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/filebuf",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/foundation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/pvd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/task",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/cooking",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/common",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/extensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/geometry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/clothing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/nvparameterized",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/legacy",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/PhysX3",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/RenderDebug/public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/PairFilter/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/internal/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Core",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TraceLog",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CoreUObject",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ApplicationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RHI",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RHI/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Json",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Json/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SlateCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InputCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Slate",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Slate/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ImageWrapper",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Messaging",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Messaging/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MessagingCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RenderCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnalyticsET",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Sockets",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Sockets/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetRegistry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SynthBenchmark",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Renderer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Renderer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTags",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PacketHandler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioPlatformConfiguration",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StaticMeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PakFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PakFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RSA",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RSA/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PhysicsCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PhysicsCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DeveloperSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Chaos",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Chaos/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ChaosCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/ChaosCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Voronoi",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Voronoi/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SignalProcessing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SignalProcessing/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixerCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixerCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyAccess",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyAccess/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Documentation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Documentation/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Projects",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Projects/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SandboxFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorStyle",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SourceControl",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/SourceControl/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayDebugger",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/BlueprintGraph",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorSubsystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorSubsystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HTTP",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealAudio",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/FunctionalTesting",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AutomationController",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AutomationController/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Localization",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Localization/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TargetPlatform",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/LevelEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Settings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Settings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/IntroTutorials",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CommonMenuExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/CommonMenuExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Landscape",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ActorPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DetailCustomizations",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClassViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GraphEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StructViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/StructViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowser",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowserData",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowserData/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CollectionManager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkFileSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkFileSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UMG",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UMG/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieScene",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieScene/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TimeManagement",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TimeManagement/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieSceneTracks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieSceneTracks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnimationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AnimationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyPath",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyPath/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NavigationSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NavigationSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshBuilder",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshBuilder/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MaterialShaderQualitySettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MaterialShaderQualitySettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InteractiveToolsFramework",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenusEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ToolMenusEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenus",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/ToolMenus/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTagsEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AssetTagsEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AddContentDialog",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel/Embree/Embree2140/MacOSX/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshMergeUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshMergeUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HierarchicalLODUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/HierarchicalLODUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshReductionInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshReductionInterface/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTools",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AssetTools/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/KismetCompiler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/KismetCompiler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTasks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AIModule",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Kismet",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"../Build/Mac/x86_64/UE4Editor/Inc/Memento",
+					"../../Source",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		F187D3952CD9ECC7E69C389D /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/cudamanager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/filebuf",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/foundation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/pvd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/task",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/cooking",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/common",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/extensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/geometry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/clothing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/nvparameterized",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/legacy",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/PhysX3",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/RenderDebug/public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/PairFilter/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/internal/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Core",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TraceLog",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CoreUObject",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ApplicationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RHI",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RHI/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Json",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Json/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SlateCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InputCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Slate",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Slate/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ImageWrapper",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Messaging",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Messaging/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MessagingCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RenderCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnalyticsET",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Sockets",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Sockets/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetRegistry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SynthBenchmark",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Renderer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Renderer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTags",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PacketHandler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioPlatformConfiguration",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StaticMeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PakFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PakFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RSA",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RSA/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PhysicsCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PhysicsCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DeveloperSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Chaos",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Chaos/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ChaosCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/ChaosCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Voronoi",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Voronoi/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SignalProcessing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SignalProcessing/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixerCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixerCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyAccess",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyAccess/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Documentation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Documentation/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Projects",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Projects/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SandboxFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorStyle",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SourceControl",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/SourceControl/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayDebugger",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/BlueprintGraph",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorSubsystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorSubsystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HTTP",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealAudio",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/FunctionalTesting",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AutomationController",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AutomationController/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Localization",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Localization/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TargetPlatform",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/LevelEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Settings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Settings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/IntroTutorials",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CommonMenuExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/CommonMenuExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Landscape",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ActorPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DetailCustomizations",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClassViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GraphEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StructViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/StructViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowser",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowserData",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowserData/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CollectionManager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkFileSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkFileSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UMG",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UMG/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieScene",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieScene/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TimeManagement",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TimeManagement/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieSceneTracks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieSceneTracks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnimationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AnimationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyPath",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyPath/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NavigationSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NavigationSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshBuilder",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshBuilder/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MaterialShaderQualitySettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MaterialShaderQualitySettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InteractiveToolsFramework",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenusEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ToolMenusEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenus",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/ToolMenus/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTagsEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AssetTagsEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AddContentDialog",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel/Embree/Embree2140/MacOSX/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshMergeUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshMergeUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HierarchicalLODUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/HierarchicalLODUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshReductionInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshReductionInterface/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTools",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AssetTools/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/KismetCompiler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/KismetCompiler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTasks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AIModule",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Kismet",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"../Build/Mac/x86_64/UE4Editor/Inc/Memento",
+					"../../Source",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development Editor";
+		};
+		F0FB5BF3D409EFB089DAD57D /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/cudamanager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/filebuf",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/foundation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/pvd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PxShared/include/task",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/cooking",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/common",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/extensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Include/geometry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/clothing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/nvparameterized",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/legacy",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/include/PhysX3",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/common/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/framework/include/autogen",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/RenderDebug/public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/general/PairFilter/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/PhysX3/APEX_1.4/shared/internal/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/simonabilkova/UE_4.26/Engine/Source",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Engine/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Core",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TraceLog",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CoreUObject",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Core/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ApplicationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RHI",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RHI/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Json",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Json/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SlateCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InputCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/InputCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Slate",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Slate/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ImageWrapper",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Messaging",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Messaging/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MessagingCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RenderCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnalyticsET",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/AnalyticsET/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Analytics",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Sockets",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Sockets/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetCommon",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetRegistry",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EngineSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SynthBenchmark",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Renderer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Renderer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTags",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PacketHandler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioPlatformConfiguration",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StaticMeshDescription",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PakFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PakFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/RSA",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/RSA/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PhysicsCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PhysicsCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DeveloperSettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Chaos",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Chaos/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ChaosCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/ChaosCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Voronoi",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/Voronoi/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SignalProcessing",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SignalProcessing/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixerCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixerCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyAccess",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyAccess/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEd",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Documentation",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Documentation/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Projects",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Projects/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SandboxFile",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorStyle",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SourceControl",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/SourceControl/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayDebugger",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/BlueprintGraph",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/EditorSubsystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/EditorSubsystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HTTP",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UnrealAudio",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/FunctionalTesting",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AutomationController",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AutomationController/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Localization",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Localization/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AudioMixer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TargetPlatform",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/LevelEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Settings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/Settings/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/IntroTutorials",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/VREditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CommonMenuExtensions",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/CommonMenuExtensions/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Landscape",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Landscape/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ActorPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/DetailCustomizations",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClassViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GraphEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/StructViewer",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/StructViewer/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowser",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ContentBrowserData",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ContentBrowserData/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/CollectionManager",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NetworkFileSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NetworkFileSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/UMG",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/UMG/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieScene",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieScene/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/TimeManagement",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/TimeManagement/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MovieSceneTracks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MovieSceneTracks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AnimationCore",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AnimationCore/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/PropertyPath",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/PropertyPath/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/NavigationSystem",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/NavigationSystem/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshBuilder",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshBuilder/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MaterialShaderQualitySettings",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/MaterialShaderQualitySettings/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/InteractiveToolsFramework",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenusEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/ToolMenusEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ToolMenus",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/ToolMenus/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTagsEditor",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AssetTagsEditor/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AddContentDialog",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/ThirdParty/Intel/Embree/Embree2140/MacOSX/include",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshMergeUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshMergeUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/HierarchicalLODUtilities",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/HierarchicalLODUtilities/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/MeshReductionInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/MeshReductionInterface/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AssetTools",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Developer/AssetTools/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/KismetCompiler",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/KismetCompiler/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/GameplayTasks",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/AIModule",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Kismet",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Classes",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Editor/Kismet/Public",
+					"/Users/simonabilkova/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/simonabilkova/UE_4.26/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"../Build/Mac/x86_64/UE4Editor/Inc/Memento",
+					"../../Source",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		1B50C766CBE01D73CFE8840A /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Memento";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Memento;
+				"PRODUCT_NAME[sdk=macosx*]" = "Memento-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/Mac/Memento-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		E9E547F4F3E62D651F666587 /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/simonabilkova/UE_4.26/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame Editor";
+		};
+		628DF56C09D5B55C6255B8F3 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Memento";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Memento;
+				"PRODUCT_NAME[sdk=macosx*]" = "Memento";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/Mac/Memento-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		909610B6E2F23D724140FDF9 /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor";
+				CONFIGURATION_BUILD_DIR = "/Users/simonabilkova/UE_4.26/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development Editor";
+		};
+		3A8A246C8F78C91A4F25015C /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Memento";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Memento;
+				"PRODUCT_NAME[sdk=macosx*]" = "Memento-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/Mac/Memento-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		1DD97A6C96C124167FB63160 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "Memento";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		0AFC3E6A54FF19023D8C83F1 /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "MementoEditor";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame Editor";
+		};
+		D14FA63872881B27C6F04CB5 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "Memento";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		C0AF9E62A37A0DBFD37547EB /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "MementoEditor";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development Editor";
+		};
+		F7506EBC712A2047387771A7 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "Memento";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		0044D62034659384F01A9BED /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Memento";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Memento;
+				"PRODUCT_NAME[sdk=macosx*]" = "Memento-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/Mac/Memento-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		3C0015DEBEE6F4DD6BE2364E /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor-Mac-DebugGame";
+				CONFIGURATION_BUILD_DIR = "/Users/simonabilkova/UE_4.26/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame Editor";
+		};
+		6F101506BE00B23DE6117B30 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Memento";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Memento;
+				"PRODUCT_NAME[sdk=macosx*]" = "Memento";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/Mac/Memento-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		B486FAEC0384CED2D8787627 /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor";
+				CONFIGURATION_BUILD_DIR = "/Users/simonabilkova/UE_4.26/Engine/Binaries/Mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development Editor";
+		};
+		1F19EAC9869661DAB07DB179 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Memento";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Memento;
+				"PRODUCT_NAME[sdk=macosx*]" = "Memento-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/Mac/Memento-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/simonabilkova/sim_data/Unreal/JigSawRMIT/Memento/Intermediate/IOS/Memento.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/simonabilkova/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A2F7C212DF1F0850F1CA9F /* Build configuration list for PBXProject "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F02DF6CC6452DDB618FDAD /* "DebugGame" */,
+				E9A4852400A1F74A6C23D8F3 /* "DebugGame Editor" */,
+				1D9F9009EC36CE823FFE1A03 /* "Development" */,
+				F187D3952CD9ECC7E69C389D /* "Development Editor" */,
+				F0FB5BF3D409EFB089DAD57D /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		ED416D4787710D0401AFA812 /* Build configuration list for PBXLegacyTarget "Memento_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD97A6C96C124167FB63160 /* "DebugGame" */,
+				0AFC3E6A54FF19023D8C83F1 /* "DebugGame Editor" */,
+				D14FA63872881B27C6F04CB5 /* "Development" */,
+				C0AF9E62A37A0DBFD37547EB /* "Development Editor" */,
+				F7506EBC712A2047387771A7 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		D80C548B647839593AFE6BD2 /* Build configuration list for PBXNativeTarget "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B50C766CBE01D73CFE8840A /* "DebugGame" */,
+				E9E547F4F3E62D651F666587 /* "DebugGame Editor" */,
+				628DF56C09D5B55C6255B8F3 /* "Development" */,
+				909610B6E2F23D724140FDF9 /* "Development Editor" */,
+				3A8A246C8F78C91A4F25015C /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7CE71A8444F2D5440016EEE1 /* Build configuration list for PBXNativeTarget "Memento_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0044D62034659384F01A9BED /* "DebugGame" */,
+				3C0015DEBEE6F4DD6BE2364E /* "DebugGame Editor" */,
+				6F101506BE00B23DE6117B30 /* "Development" */,
+				B486FAEC0384CED2D8787627 /* "Development Editor" */,
+				1F19EAC9869661DAB07DB179 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+/* Begin PBXShellScriptBuildPhase section */
+		9CEDC7B73DB10B51051D14C7 /* Sign Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			name = "Sign Manual Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nIFS=$'\\n'\n\nif [ $PLATFORM_NAME = iphoneos ] || [ $PLATFORM_NAME = tvos ]; then \n\tFRAMEWORK_DIR=$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/Frameworks\n\tfor FRAMEWORK in ${FRAMEWORK_DIR}/*.framework; do\n\t\t[ -d \"${FRAMEWORK}\" ] || continue\n\t\techo Codesigning ${FRAMEWORK}\n\t\tcodesign --force --sign ${EXPANDED_CODE_SIGN_IDENTITY} --verbose --preserve-metadata=identifier,entitlements,flags --timestamp=none \"${FRAMEWORK}\"\n\tdone\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+	};
+	rootObject = AAE84169B2F4A357C7635315 /* Project object */;
+}
