@@ -3,7 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Kismet/GameplayStatics.h"
 #include "GameFramework/Actor.h"
+#include "Components/TextRenderComponent.h"
+#include "Components/ActorComponent.h"
 #include "CharacterPlayer.generated.h"
 
 UCLASS()
@@ -15,6 +18,8 @@ public:
 
 	// Sets default values for this actor's properties
 	ACharacterPlayer();
+    UPROPERTY(VisibleInstanceOnly)
+             UTextRenderComponent* _displayText;
 
 
 protected:
@@ -22,7 +27,11 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
+	// Called every frame    
 	virtual void Tick(float DeltaTime) override;
-
+    
+private:
+    
+    APlayerController* currentPlayerController;
+    UTextRenderComponent* textRenderer;
 };
